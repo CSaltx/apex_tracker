@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    scroll-behavior: smooth;
+    overflow:hidden;
+}
+
+@font-face{
+    font-family: 'graphiksemibold';
+    src: url('graphik-semibold-webfont.woff2') format('woff2'),
+    url('graphik-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.txt {
+    text-align: justify;
+    margin-top: 225px;
+    margin-left: 275px;
+    color: red;
+    font-family: graphiksemibold;
+    line-height: 110%;
+    letter-spacing: -2px;
+    font-size: 8vmin;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#white:hover{
+    font-size: 0px;
+}
+
+
+#white:hover:after{
+    display: inline-block;
+    vertical-align: top;
+    content: attr(data-hover);
+    font-family: graphiksemibold;
+    font-size: 14vmin;
+    margin-left: 40px;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation: fadeIn 1.5s;
+}
+
+#for:hover{
+    font-size: 0px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#for:hover:after{
+    display: inline-block;
+    vertical-align: top;
+    content: attr(data-hover);
+    font-family: graphiksemibold;
+    font-size: 14vmin;
+    margin-left: 40px;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation: fadeIn 1.5s;
+}
+
+#gamers:hover{
+    font-size: 0px;
+}
+
+#gamers:hover:after{
+    display: inline-block;
+    vertical-align: top;
+    content: attr(data-hover);
+    font-family: graphiksemibold;
+    margin-left: 40px;
+    font-size: 14vmin;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation: fadeIn 1.5s;
+}
+
+#white {
+    color: white;
+}
+
+
+#mainImg {
+    float: right;
+    position: fixed;
+    margin-top: -1600px;
+    margin-left: 200px;
+    transform: scale(0.35, 0.35);
+    filter: brightness(70%);
+}

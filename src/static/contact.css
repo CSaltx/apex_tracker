@@ -1,0 +1,20 @@
+@keyframes goAway {
+    0% { opacity: 100;}
+    100% { opacity: 0;}
+}
+
+body {
+    background: black url(smoke_PNG55245.png);
+    opacity: 0.1;
+}
+
+#apexIntro::before {
+
+}
+
+#apexIntro::after {
+    goAway() 1.5s;
+}
+
+#before {
+}

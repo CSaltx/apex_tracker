@@ -1,0 +1,228 @@
+@font-face{
+    font-family: 'graphiksemibold';
+    src: url('graphik-semibold-webfont.woff2') format('woff2'),
+    url('graphik-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    background: #CEC4BA;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+#logo-top {
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.inline-background {
+    background: #E5DFD6;
+    width: 1500px;
+    height: 900px;
+    left: 200px;
+    top: 15px;
+    overflow: inherit;
+    position: relative;
+}
+
+/*div {*/
+/*    width: 500px;*/
+/*    height: 110px;*/
+/*    overflow-x: hidden;*/
+/*    overflow-y: hidden;*/
+/*    text-align:justify;*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+
+
+/*.Enter {*/
+/*    width: 600px;*/
+/*    height: 50px;*/
+/*    position: absolute;*/
+/*    left: 495px;*/
+/*    top: 342px;*/
+/*}*/
+
+h2 {
+    color: whitesmoke;
+    position: absolute;
+    font-family: graphiksemibold;
+    font-style: normal;
+    font-size: xx-large;
+    text-align: left;
+    left: 120px;
+    top: 10px;
+}
+
+/*#footer {*/
+/*    position: fixed;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    background-color: red;*/
+/*    width: 100%;*/
+/*    height: 4rem;*/
+/*}*/
+
+.subtext {
+    color: white;
+    text-align: left;
+    position: absolute;
+    font-size: large;
+    font-family: graphiksemibold;
+    font-size: 11px;
+    left: 120px;
+    top: 70px;
+    font-style: normal;
+}
+
+input[type=text], textarea {
+    border-radius: 25px;
+    border: 2px solid darkred;
+    padding: 20px;
+    width: 400px;
+    height: 15px;
+    position: absolute;
+    box-sizing: border-box;
+    resize: vertical;
+    left: 500px;
+    top: 350px;
+    font-family: graphiksemibold;
+    font-size: 2vmin;
+
+}
+
+
+.sub_button {
+    /*background: darkred;*/
+    background: transparent;
+    border-radius: 999px;
+    box-shadow: darkred 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    left: 650px;
+    top: 350px;
+    position: absolute;
+    width: 0%;
+    height: 0%;
+}
+
+
+.fpage_img {
+    width: 90px;
+    height: 100px;
+}
+
+
+h1 {
+    color: orangered;
+    font-family: graphiksemibold;
+    position: absolute;
+    font-size: 3em;
+    left: 1000px;
+    top: 300px;
+}
+
+
+select {
+    background-color: red;
+    color: whitesmoke;
+    font-family: graphiksemibold;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    width: 5%;
+    height: 40px;
+    left: 400px;
+    top:350px;
+
+}
+
+p {
+    color: white;
+    text-align: left;
+    position: absolute;
+    font-size: large;
+    font-family: graphiksemibold;
+    font-size: 18vmin;
+    left: 750px;
+    top: 500px;
+    font-style: normal;
+}
+
+/*.sub_button {*/
+/*    font-family: graphiksemibold, Arial;*/
+/*    position: absolute;*/
+/*    font-size: 16px;*/
+/*    width: 5%;*/
+/*    height: 40px;*/
+/*    left: 650px;*/
+/*    top:350px;*/
+/*}*/
+
+#player-info {
+    color: red;
+    font-family: graphiksemibold;
+    position: absolute;
+    text-align: center;
+    font-size: 16px;
+    width: 5%;
+    height: 40px;
+    left: 1000px;
+    top:350px;
+}
+
+
+/*
+#news {
+    background-color: lightgray;
+    position: absolute;
+    width: 700px;
+    height: 100%;
+    left: 1300px;
+    top: -50px;
+    text-align: center;
+    line-height: 90px;
+    margin: auto;
+
+}
+*/
+
+/*.newsheader {*/
+/*    color: darkred;*/
+/*    position: absolute;*/
+/*    font-family: Arial;*/
+/*    font-size: 36px;*/
+/*    text-align: right;*/
+/*    margin: 2px;*/
+/*    right: 320px;*/
+/*    top: 100px;*/
+/*    text-align: center;*/
+/*    line-height: 90px;*/
+/*    font-style: oblique;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+
+

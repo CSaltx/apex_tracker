@@ -1,0 +1,320 @@
+/*@font-face{*/
+/*    font-family: 'graphiksemibold';*/
+/*    src: url('graphik-semibold-webfont.woff2') format('woff2'),*/
+/*    url('graphik-semibold-webfont.woff') format('woff');*/
+/*    font-weight: 600;*/
+/*    font-style: normal;*/
+/*}*/
+
+:root{
+    --bg-color: black;
+    --typewriterSpeed: 4s;
+}
+
+img {
+    width: 100%;
+    height: 150%;
+}
+
+#back {
+    position: absolute;
+    right: 20px;
+    width: 1%;
+    height: 2%;
+    top: 10px;
+    background: transparent;
+
+
+}
+
+body {
+    background-color: black;
+    display: block;
+    place-content: center;
+    text-align: center;
+}
+
+
+#txt1 {
+    text-align: justify;
+    color: white;
+    margin: 0;
+    font-family: "Source Code Pro", monospace;
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    position: relative;
+    width: max-content;
+}
+
+#txt1::before,
+#txt1::after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#txt1::before {
+    background: var(--bg-color);
+    animation:
+            typewriter var(--typewriterSpeed) steps(45) 1s forwards;
+}
+
+#txt1::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter var(--typewriterSpeed) steps(45) 1s forwards, blink 500ms infinite, disappear 0ms 6s forwards;
+}
+
+#txt2 {
+    text-align: justify;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    margin: 0;
+    left: 550px;
+    /*line-height: 150%;*/
+    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+    position: relative;
+    width: max-content;
+}
+
+
+#txt2::before, #txt2::after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#txt2::before {
+    background: var(--bg-color);
+    animation:
+            typewriter 2s steps(15) 6s forwards;
+}
+
+#txt2::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter 2s steps(15) 6s forwards, disappear 0.1ms forwards, reappear 0.1ms 6s forwards, blink 500ms 4s infinite, disappear 0.1ms 10s forwards;
+}
+
+#empty-space {
+    text-align: justify;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: clamp(0.5rem, 3vw + 0.5rem, 3.5rem);
+    position: relative;
+    width: max-content;
+}
+
+#empty-space::before, #empty-space::after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#empty-space::before {
+    background: var(--bg-color);
+    animation: typewriter 0.5s steps(10) 10s forwards;
+
+}
+
+#empty-space::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter 2s steps(10) 10s forwards, disappear 0.1ms forwards, reappear 0.1ms 12s forwards, blink 500ms 4s infinite, disappear 0.1ms 13s forwards;
+}
+
+#linkedin {
+    text-align: justify;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: clamp(0.5rem, 3vw + 0.5rem, 3.5rem);
+    position: relative;
+    width: max-content;
+
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: deepskyblue;
+}
+
+#linkedin::before {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#linkedin::before {
+    background: var(--bg-color);
+    animation: typewriter 0.5s steps(23) 13s forwards;
+
+}
+
+#linkedin::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter 2s steps(23) 13s forwards, disappear 0.1ms forwards, reappear 0.1ms 15s forwards, blink 500ms 4s infinite, disappear 0.1ms 16s forwards;
+}
+
+#github {
+    text-align: justify;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: clamp(0.5rem, 3vw + 0.5rem, 3.5rem);
+    position: relative;
+    width: max-content;
+}
+
+#github::before, #empty-space::after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#github::before {
+    background: var(--bg-color);
+    animation: typewriter 0.5s steps(21) 16s forwards;
+
+}
+
+#github::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter 2s steps(21) 16s forwards, disappear 0.1ms forwards, reappear 0.1ms 17s forwards, blink 500ms 4s infinite, disappear 0.1ms 19s forwards;
+}
+
+#display {
+    text-align: justify;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: clamp(0.5rem, 3vw + 0.5rem, 3.5rem);
+    position: relative;
+    width: max-content;
+}
+
+#display::before, #empty-space::after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#display::before {
+    background: var(--bg-color);
+    animation: typewriter 0.5s steps(21) 19s forwards;
+
+}
+
+#display::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter 2s steps(21) 19s forwards, disappear 0.1ms forwards, reappear 0.1ms 17s forwards, blink 500ms 4s infinite, disappear 0.1ms 21s forwards;
+}
+
+#info {
+    text-align: justify;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: clamp(0.5rem, 3vw + 0.5rem, 3.5rem);
+    position: relative;
+    width: max-content;
+}
+
+#info::before, #info::after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#info::before {
+    background: var(--bg-color);
+    animation: typewriter 3s steps(36) 21s forwards;
+
+}
+
+#info::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter 3s steps(36) 21s forwards, disappear 0.1ms forwards, reappear 0.1ms 21s forwards, blink 500ms 4s infinite, disappear 0.1ms 25s forwards;;
+}
+
+#overflow {
+    text-align: justify;
+    color: white;
+    font-family: "Source Code Pro", monospace;
+    font-size: clamp(0.5rem, 3vw + 0.5rem, 3.5rem);
+    position: relative;
+    width: max-content;
+}
+
+#overflow::before, #overflow::after {
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+#overflow::before {
+    background: var(--bg-color);
+    animation: typewriter 3s steps(33) 25s forwards;
+
+}
+
+#overflow::after {
+    width: 0.1em;
+    background: whitesmoke;
+    animation:
+            typewriter 3s steps(33) 25s forwards, disappear 0.1ms forwards, reappear 0.1ms 25s forwards, blink 500ms 4s infinite, disappear 0.1ms 29s forwards;
+
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        background: transparent;
+    }
+}
+
+@keyframes disappear {
+    to {
+        opacity: 0%;
+    }
+}
+@keyframes reappear {
+    to {
+        opacity: 100%;
+    }
+}
