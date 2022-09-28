@@ -21,6 +21,8 @@
 ### Introduction
 If you have played games, you have probably wanted a place to see all your statistics. The goal of this project is to learn up more about HTML, JavaScript, and Flask while providing a useful website for video game enthusiasts.
 
+![Apex Legends](https://media0.giphy.com/media/8cTcJIxCnA6DdxYxK5/giphy.gif?cid=ecf05e47bqiekrsss0m5uhk7utcsp4hes6m6xzi06pis80e1&rid=giphy.gif&ct=g)
+
 
 ### Information
 There are 3 web pages in this project. One page is an about page that emulates the view of a terminal screen with interactive functionality. The main page, found through the "Enter" button allows you to type in an input and leaves you with data regarding the player entered or an error if such an error occured. I hope in future iterations of this project to integrate React functionality so the pages refresh on command and are faster.
