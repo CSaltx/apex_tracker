@@ -1,5 +1,9 @@
 ### Welcome to my Apex Legends Tracker!
-![AppVeyor](https://img.shields.io/appveyor/build/CSaltx/apex_tracker)
+<div align="center">
+
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+</div>
 #### All code engineered and compiled by Coby Schumitzky
 
 ## Table of Contents
