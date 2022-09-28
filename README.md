@@ -1,5 +1,5 @@
 ### Welcome to my Apex Legends Tracker!
-
+![AppVeyor](https://img.shields.io/appveyor/build/CSaltx/apex_tracker)
 #### All code engineered and compiled by Coby Schumitzky
 
 ## Table of Contents
