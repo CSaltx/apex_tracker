@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="../static/style.css">
+<title>Apex Tracker</title>
+
+<head>
+    <script type="text/javascript">
+    </script>
+    <script type="text/javascript" src="app.js"></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <div class="inline-background">
+                <img src="/static/Apex-Legends-Logo.png" id="logo-top">
+                <div class="Enter"></div>
+                <form method="POST">
+                    <label for="plat" class="platform"></label>
+                    <div class="col-75">
+                        <select id="plat" name="platform">
+                            <option value="origin">PC</option>
+                            <option value="psn">PSN</option>
+                            <option value="xbox">XBOX</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="gtag"></label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="gtag" name="gtag" placeholder="Enter Gamer Tag" required>
+                        </div>
+                        <input type="submit" value="Enter" class="sub_button">
+                    </div>
+                </form>
+                <div>
+                {% if not bot %}
+
+
+                    <h1> Please enter correct information </h1>
+
+
+                {% endif %}
+
+                </div>
+                {% if bot %}
+                <div class="container-lg" id="player-info">
+                    <form method='post'>
+                        name: {{ bot["data"]["platformInfo"]["platformUserId"] }}<br>
+                    </form>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div id="news">
+        </div>
+        <footer id="footer"></footer>
+    </div>
+</body>
+</html>
