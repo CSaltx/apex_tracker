@@ -21,7 +21,7 @@
 ### Introduction
 If you have played games, you have probably wanted a place to see all your statistics. The goal of this project is to learn up more about HTML, JavaScript, and Flask while providing a useful website for video game enthusiasts.
 
-<img src="https://media0.giphy.com/media/8cTcJIxCnA6DdxYxK5/giphy.gif?cid=ecf05e47bqiekrsss0m5uhk7utcsp4hes6m6xzi06pis80e1&rid=giphy.gif&ct=g" width=400 />
+<img src="https://media0.giphy.com/media/8cTcJIxCnA6DdxYxK5/giphy.gif?cid=ecf05e47bqiekrsss0m5uhk7utcsp4hes6m6xzi06pis80e1&rid=giphy.gif&ct=g" width=200 />
 
 
 ### Information
