@@ -31,7 +31,6 @@ There are 3 web pages in this project. One page is an about page that emulates t
 ### Documentation
 In the static folder, you can find the images, fonts, and css used to make the webpages. In the about page, you can see an animation created using CSS whose source code can be found here. In the templates folder, you can find the HTML webpages. In the main src folder, you can find the apex tracker file which connects the webpages and retrieves data from the tracker.gg API using Python and the Flask Framework.
 
-<img src="https://media0.giphy.com/media/YPVTjbArriTs2iXtTB/giphy.gif?cid=ecf05e47deibadfefyfg56ltz35lccvp7cu3h52uhiawanur&rid=giphy.gif&ct=g" width=300 />
 
 ### Technologies
 Project was created with:
