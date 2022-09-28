@@ -14,7 +14,7 @@ If you have played games, you have probably wanted a place to see all your stati
 
 
 ### Information
-There are 3 pages in this project. One page is an about page that emulates the view of a terminal screen with interactive functionality. The main page, found through the "Enter" button allows you to type in an input and leaves you with data regarding the player entered or an error if such an error occured. I hope in future iterations of this project to integrate React functionality so the pages refresh on command and are faster.
+There are 3 web pages in this project. One page is an about page that emulates the view of a terminal screen with interactive functionality. The main page, found through the "Enter" button allows you to type in an input and leaves you with data regarding the player entered or an error if such an error occured. I hope in future iterations of this project to integrate React functionality so the pages refresh on command and are faster.
 
 
 ### Documentation
